@@ -9,36 +9,18 @@ export default function Navbar() {
           <div className="avatar">
             <div className="w-10 rounded-full hover:ring-2 hover:scale-105">
               <Link href="./Home">
-                <img src="/headshot.png" alt="me" />
+                <img src="/wavy-bagels.png" alt="me" />
               </Link>
             </div>
           </div>
           <div className="flex-1">
-            <h2 className="pl-6 text-xl">Trevor Santoli</h2>
+            <h2 className="pl-6 text-xl">Wavy Bagels</h2>
           </div>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a
-                href="https://github.com/trevorichi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/trevor-santoli-934197200/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <Link href="./Menu">
+              <Link href="components/Menu">
                 Menu
                 <MdRestaurantMenu size={25}></MdRestaurantMenu>
               </Link>
