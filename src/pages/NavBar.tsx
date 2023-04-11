@@ -6,13 +6,15 @@ export default function Navbar() {
     <>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <div className="avatar">
-            <div className="w-10 rounded-full hover:ring-2 hover:scale-105">
-              <Link href="./Home">
-                <img src="/wavy-bagels.png" alt="me" />
-              </Link>
-            </div>
-          </div>
+          <Link href="./Home">
+            <img
+              className="hover:scale-105"
+              src="/wavy-bagels.png"
+              alt="me"
+              height="75"
+              width="75"
+            />
+          </Link>
           <div className="flex-1">
             <h2 className="pl-6 text-xl">Wavy Bagels</h2>
           </div>
