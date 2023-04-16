@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link href="./Home">
+          <Link href="/">
             <img
               className="hover:scale-105"
               src="/wavy-bagels.png"
@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link href="components/Menu">
+              <Link href="./components/Menu">
                 Menu
                 <MdRestaurantMenu size={25}></MdRestaurantMenu>
               </Link>
